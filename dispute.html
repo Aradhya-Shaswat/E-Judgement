@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>E-Judiciary | Dispute</title>
+</head>
+<body>
+    <!--input placeholder-->
+    <div class="heading">
+        <h1><center>Submit Dispute</center></h1>
+
+        <br>
+        <div class="container">
+            <form action="/action_page.php">
+              <div class="row">
+                <div class="col-25">
+                  <label for="fname">First Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="lname">Last Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="email">Email</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="email" name="email" placeholder="Your E-mail">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="case">Case Type</label>
+                </div>
+                <div class="col-75">
+                  <select id="type" name="type">
+                    <option value="criminal">Criminal Case</option>
+                    <option value="civil">Civil Case</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="subject">Describe</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="subject" name="subject" placeholder="Briefly describe your dispute here.." style="height:200px"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <br>
+                <input type="submit" value="Submit">
+              </div>
+            </form>
+          </div>
+          <br>
+          <br>
+          <br>
+          <div class="how_it_works">
+          <footer>
+            <hr>
+              <p>© 2022 E-Judiciary. All rights reserved.
+                  Under Development.
+              </p>
+          </footer>
+        </div>
+    </div>
+</body>
+</html>

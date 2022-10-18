@@ -1,0 +1,13 @@
+* {
+    color: #293462;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F1F1F1;
+}
+
+.hr {
+    border: 1px solid #293462;
+}
+
+.how_it_works {
+    padding-left: 2.5%;
+}
