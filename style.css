@@ -1,13 +1,14 @@
 * {
-    color: #293462;
+    color: #ffffff;
     font-family: 'Open Sans', sans-serif;
-    background-color: #F1F1F1;
+    background-color: #242424;
 }
-
-.hr {
-    border: 1px solid #293462;
+main {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    position: relative;
 }
-
 .how_it_works {
     padding-left: 2.5%;
 }
