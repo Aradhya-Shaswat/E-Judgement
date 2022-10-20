@@ -1,7 +1,7 @@
 * {
-    color: #293462;
-    font-family: 'Open Sans', sans-serif;
-    background-color: #F1F1F1;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #242424;
 }
 
 .hr {
@@ -15,7 +15,7 @@
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 4px;
     resize: vertical;
   }
@@ -41,7 +41,7 @@ input[type=text], select, textarea {
   
   .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #242424;
     padding: 20px;
   }
   
