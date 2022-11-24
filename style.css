@@ -1,29 +1,134 @@
+    * {
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        background-color: #242424;
+    }
+    .main {
+        display: grid;
+        place-items: center;
+        min-height: 50vh;
+        position: relative;
+    }
+
+    .Title {
+        font-size: 4rem;
+        display: grid;
+        justify-content: center;
+    }
+
+    .how_it_works {
+        padding-left: 2.5%;
+    }
+
+    /* .box {
+    width: 500px;
+    height: 100px;
+    border: solid 5px #000;
+    border-color: transparent transparent #000 transparent;
+    border-radius: 0 0 240px 50%/60px;
+    } */
+
 * {
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
     background-color: #242424;
-}
-.main {
-    display: grid;
-    place-items: center;
-    min-height: 50vh;
-    position: relative;
-}
+  }
+  
+  .hr {
+      border: 1px solid #293462;
+  }
+    
+  input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid rgb(0, 0, 0);
+      border-radius: 4px;
+      resize: vertical;
+    }
+    
+    label {
+      padding: 12px 12px 12px 0;
+      display: inline-block;
+    }
+    
+    input[type=submit] {
+      background-color: #1F7F4C;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      float: right;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+    
+    .container {
+      border-radius: 5px;
+      background-color: #242424;
+      padding: 20px;
+    }
+    
+    .col-25 {
+      float: left;
+      width: 25%;
+      margin-top: 6px;
+    }
+    
+    .col-75 {
+      float: left;
+      width: 75%;
+      margin-top: 6px;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+      }
+    }
+  
+    .row {
+      align-content: center;
+    }
 
-.Title {
-    font-size: 4rem;
-    display: grid;
-    justify-content: center;
-}
+    .animateTitle {
+        animation-name: titleAnime;
+        animation-duration: 5s;
+        animation-timing-function: ease;
+      }
+      
+      @keyframes titelAnime {
+        0%   {background-color: red;}
+        25%  {background-color: yellow;}
+        50%  {background-color: blue;}
+        100% {background-color: green;}
+      }
 
-.how_it_works {
-    padding-left: 2.5%;
-}
-
-/* .box {
-  width: 500px;
-  height: 100px;
-  border: solid 5px #000;
-  border-color: transparent transparent #000 transparent;
-  border-radius: 0 0 240px 50%/60px;
-} */
+      button {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        position: relative;
+        animation-name: flyingbtn;
+        animation-duration: 4s;
+        animation: flyingbtn 4s linear 1 normal;
+      }
+      
+      @keyframes flyingbtn {
+        0%   {background-color:red; left:0px; top:0px;}
+        25%  {background-color:yellow; left:200px; top:0px;}
+        50%  {background-color:blue; left:200px; top:200px;}
+        75%  {background-color:green; left:0px; top:200px;}
+        100% {background-color:red; left:0px; top:0px;}
+      }
