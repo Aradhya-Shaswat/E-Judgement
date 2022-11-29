@@ -1,3 +1,3 @@
 # E-Judgement
 
-A DEMO A.I Trained to diiferentiate between right and wrong.
+A DEMO A.I Trained to differentiate between right and wrong.
