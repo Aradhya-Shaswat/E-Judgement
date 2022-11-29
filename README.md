@@ -1,3 +1,3 @@
 # E-Judgement
 
-A Govt. of India Undertaking.
+A DEMO A.I Trained to diiferentiate between right and wrong.
